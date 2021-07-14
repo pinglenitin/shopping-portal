@@ -19,7 +19,7 @@ pipeline {
       }
     }
 
-    stage('error') {
+    stage('Archive') {
       steps {
         archiveArtifacts '**/distribution/*.zip'
       }
